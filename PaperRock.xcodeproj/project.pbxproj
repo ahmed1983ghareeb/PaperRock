@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E48A2D7223867660091DAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48A2D6223867660091DAD8 /* AppDelegate.swift */; };
+		2E48A2D9223867660091DAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48A2D8223867660091DAD8 /* ViewController.swift */; };
+		2E48A2DC223867660091DAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E48A2DA223867660091DAD8 /* Main.storyboard */; };
+		2E48A2DE223867670091DAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E48A2DD223867670091DAD8 /* Assets.xcassets */; };
+		2E48A2E1223867670091DAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E48A2DF223867670091DAD8 /* LaunchScreen.storyboard */; };
+		2E48A2EC223867680091DAD8 /* PaperRockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48A2EB223867680091DAD8 /* PaperRockTests.swift */; };
+		2E48A2F7223867680091DAD8 /* PaperRockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48A2F6223867680091DAD8 /* PaperRockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E48A2E8223867680091DAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E48A2CB223867660091DAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E48A2D2223867660091DAD8;
+			remoteInfo = PaperRock;
+		};
+		2E48A2F3223867680091DAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E48A2CB223867660091DAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E48A2D2223867660091DAD8;
+			remoteInfo = PaperRock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E48A2D3223867660091DAD8 /* PaperRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E48A2D6223867660091DAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E48A2D8223867660091DAD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E48A2DB223867660091DAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E48A2DD223867670091DAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E48A2E0223867670091DAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E48A2E2223867670091DAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E48A2E7223867680091DAD8 /* PaperRockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperRockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E48A2EB223867680091DAD8 /* PaperRockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockTests.swift; sourceTree = "<group>"; };
+		2E48A2ED223867680091DAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E48A2F2223867680091DAD8 /* PaperRockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperRockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E48A2F6223867680091DAD8 /* PaperRockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRockUITests.swift; sourceTree = "<group>"; };
+		2E48A2F8223867680091DAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E48A2D0223867660091DAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2E4223867680091DAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2EF223867680091DAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E48A2CA223867660091DAD8 = {
+			isa = PBXGroup;
+			children = (
+				2E48A2D5223867660091DAD8 /* PaperRock */,
+				2E48A2EA223867680091DAD8 /* PaperRockTests */,
+				2E48A2F5223867680091DAD8 /* PaperRockUITests */,
+				2E48A2D4223867660091DAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E48A2D4223867660091DAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E48A2D3223867660091DAD8 /* PaperRock.app */,
+				2E48A2E7223867680091DAD8 /* PaperRockTests.xctest */,
+				2E48A2F2223867680091DAD8 /* PaperRockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E48A2D5223867660091DAD8 /* PaperRock */ = {
+			isa = PBXGroup;
+			children = (
+				2E48A2D6223867660091DAD8 /* AppDelegate.swift */,
+				2E48A2D8223867660091DAD8 /* ViewController.swift */,
+				2E48A2DA223867660091DAD8 /* Main.storyboard */,
+				2E48A2DD223867670091DAD8 /* Assets.xcassets */,
+				2E48A2DF223867670091DAD8 /* LaunchScreen.storyboard */,
+				2E48A2E2223867670091DAD8 /* Info.plist */,
+			);
+			path = PaperRock;
+			sourceTree = "<group>";
+		};
+		2E48A2EA223867680091DAD8 /* PaperRockTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E48A2EB223867680091DAD8 /* PaperRockTests.swift */,
+				2E48A2ED223867680091DAD8 /* Info.plist */,
+			);
+			path = PaperRockTests;
+			sourceTree = "<group>";
+		};
+		2E48A2F5223867680091DAD8 /* PaperRockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E48A2F6223867680091DAD8 /* PaperRockUITests.swift */,
+				2E48A2F8223867680091DAD8 /* Info.plist */,
+			);
+			path = PaperRockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E48A2D2223867660091DAD8 /* PaperRock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E48A2FB223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRock" */;
+			buildPhases = (
+				2E48A2CF223867660091DAD8 /* Sources */,
+				2E48A2D0223867660091DAD8 /* Frameworks */,
+				2E48A2D1223867660091DAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperRock;
+			productName = PaperRock;
+			productReference = 2E48A2D3223867660091DAD8 /* PaperRock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E48A2E6223867680091DAD8 /* PaperRockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E48A2FE223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRockTests" */;
+			buildPhases = (
+				2E48A2E3223867680091DAD8 /* Sources */,
+				2E48A2E4223867680091DAD8 /* Frameworks */,
+				2E48A2E5223867680091DAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E48A2E9223867680091DAD8 /* PBXTargetDependency */,
+			);
+			name = PaperRockTests;
+			productName = PaperRockTests;
+			productReference = 2E48A2E7223867680091DAD8 /* PaperRockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E48A2F1223867680091DAD8 /* PaperRockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E48A301223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRockUITests" */;
+			buildPhases = (
+				2E48A2EE223867680091DAD8 /* Sources */,
+				2E48A2EF223867680091DAD8 /* Frameworks */,
+				2E48A2F0223867680091DAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E48A2F4223867680091DAD8 /* PBXTargetDependency */,
+			);
+			name = PaperRockUITests;
+			productName = PaperRockUITests;
+			productReference = 2E48A2F2223867680091DAD8 /* PaperRockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E48A2CB223867660091DAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ahmed Ghareeb";
+				TargetAttributes = {
+					2E48A2D2223867660091DAD8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2E48A2E6223867680091DAD8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E48A2D2223867660091DAD8;
+					};
+					2E48A2F1223867680091DAD8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E48A2D2223867660091DAD8;
+					};
+				};
+			};
+			buildConfigurationList = 2E48A2CE223867660091DAD8 /* Build configuration list for PBXProject "PaperRock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E48A2CA223867660091DAD8;
+			productRefGroup = 2E48A2D4223867660091DAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E48A2D2223867660091DAD8 /* PaperRock */,
+				2E48A2E6223867680091DAD8 /* PaperRockTests */,
+				2E48A2F1223867680091DAD8 /* PaperRockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E48A2D1223867660091DAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E48A2E1223867670091DAD8 /* LaunchScreen.storyboard in Resources */,
+				2E48A2DE223867670091DAD8 /* Assets.xcassets in Resources */,
+				2E48A2DC223867660091DAD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2E5223867680091DAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2F0223867680091DAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E48A2CF223867660091DAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E48A2D9223867660091DAD8 /* ViewController.swift in Sources */,
+				2E48A2D7223867660091DAD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2E3223867680091DAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E48A2EC223867680091DAD8 /* PaperRockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48A2EE223867680091DAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E48A2F7223867680091DAD8 /* PaperRockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E48A2E9223867680091DAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E48A2D2223867660091DAD8 /* PaperRock */;
+			targetProxy = 2E48A2E8223867680091DAD8 /* PBXContainerItemProxy */;
+		};
+		2E48A2F4223867680091DAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E48A2D2223867660091DAD8 /* PaperRock */;
+			targetProxy = 2E48A2F3223867680091DAD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E48A2DA223867660091DAD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E48A2DB223867660091DAD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E48A2DF223867670091DAD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E48A2E0223867670091DAD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E48A2F9223867680091DAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E48A2FA223867680091DAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E48A2FC223867680091DAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E48A2FD223867680091DAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E48A2FF223867680091DAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperRock.app/PaperRock";
+			};
+			name = Debug;
+		};
+		2E48A300223867680091DAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperRock.app/PaperRock";
+			};
+			name = Release;
+		};
+		2E48A302223867680091DAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaperRock;
+			};
+			name = Debug;
+		};
+		2E48A303223867680091DAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperRockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ghareeb.PaperRockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaperRock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E48A2CE223867660091DAD8 /* Build configuration list for PBXProject "PaperRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48A2F9223867680091DAD8 /* Debug */,
+				2E48A2FA223867680091DAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E48A2FB223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48A2FC223867680091DAD8 /* Debug */,
+				2E48A2FD223867680091DAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E48A2FE223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48A2FF223867680091DAD8 /* Debug */,
+				2E48A300223867680091DAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E48A301223867680091DAD8 /* Build configuration list for PBXNativeTarget "PaperRockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48A302223867680091DAD8 /* Debug */,
+				2E48A303223867680091DAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E48A2CB223867660091DAD8 /* Project object */;
+}
